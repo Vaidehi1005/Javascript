@@ -1,6 +1,6 @@
 console.log("Hey this is JS")
 //console ma show thai jase aa o/p have variables banaisu
-let a = 5;
+var a = 5;
 //we make a var a whose value is no 
 let b = 6;
 //we make a var a whose value is no 
@@ -16,8 +16,9 @@ console.log(typeof a, typeof b, typeof c)
 // let aek keyword che var mate mordern js ma and let ek block scope che e just ej block ma chale ena sivai e bija koi block ma nai chale  
 const a1 = 1;//aa const keyword no matlab che a1 ni value constant rese ema change nai kari sakie jm k a1=a1+3 k evu eni value je assign kari ej value rese because a1 constant che
 {
-    let a =66;
+    var a = 66;
     //as let block scope che ene upar define karyu che so e global var bani gayo
+    //bane jagya e var rakhisu as var globally scoped che and var pela 5 che then var 66 thai gyu so bane ma 66 j rese
     console.log(a)
 }
 console.log(a);
