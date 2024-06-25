@@ -3,3 +3,4 @@ alert("Hello World");
 console.log("Code is running...")
 console.log("Code is also running...")
 console.log("Code is looking like a wow...")
+// console.log is used in js it tells about the how much execution is there in the script this are made by console.log and helps in debugging.aa code ne kese ketlu execution thayu che ane error solve karva ma pn help kare 
