@@ -16,9 +16,19 @@ console.log(typeof a, typeof b, typeof c)
 // let aek keyword che var mate mordern js ma and let ek block scope che e just ej block ma chale ena sivai e bija koi block ma nai chale  
 const a1 = 1;//aa const keyword no matlab che a1 ni value constant rese ema change nai kari sakie jm k a1=a1+3 k evu eni value je assign kari ej value rese because a1 constant che
 {
-    var a = 66;
+    let a = 66;
     //as let block scope che ene upar define karyu che so e global var bani gayo
     //bane jagya e var rakhisu as var globally scoped che and var pela 5 che then var 66 thai gyu so bane ma 66 j rese
     console.log(a)
 }
 console.log(a);
+//primitive var
+let x = "Vaidehi Nayakpura";//this is var string
+let y=22;//this is var no
+let z=3.55;//this is var no
+const p =true;//this is constant and boolean var
+let q = undefined;//this is undefined var
+let r=null;//this is null var
+
+console.log(x, y, z, p, q, r)
+console.log(typeof x,typeof y,typeof z, typeof p,typeof q, typeof r)
