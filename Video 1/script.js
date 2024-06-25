@@ -7,3 +7,16 @@ console.log("Code is looking like a wow...")
 
 var a = prompt("Enter your number")
 //ek variable a banavyo pela alert aavse helo world then e alert ne ok karisu to biji alert aavse prompt ni je ema nakhyu tu k enter your number then ema no enter karvano and ok karisu to var a ni value e no thai jase.
+// then have console.log kari daie jena thi aapde var a ma je no store thayo che e show karvama mate eni script che
+var isTrue = confirm("Are you sure you want to leave this page and blast your computer ")
+// aa var istrue je confirm karave che user pase thi k are u sure.... then if else aavse 
+if(isTrue){
+    console.log("Computer is blasting")
+    //if user confirm valu var istrue par yes/ok karse to e istrue if ma jase means k if ma tyare jase istrue true hase and aa print karavse
+}
+else{
+    console.log("Computer is not blasting")
+//if cancel/no par click karse to istrue false hase ane else par jase ane aa print karavse
+}
+console.log("Your number is " + a) 
+//aa just no print karavse console ma
