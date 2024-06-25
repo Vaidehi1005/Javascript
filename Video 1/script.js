@@ -16,7 +16,11 @@ if(isTrue){
 }
 else{
     console.log("Computer is not blasting")
-//if cancel/no par click karse to istrue false hase ane else par jase ane aa print karavse
+    //if cancel/no par click karse to istrue false hase ane else par jase ane aa print karavse
 }
 console.log("Your number is " + a) 
 //aa just no print karavse console ma
+document.title="Hey I am Vaidehi"
+//ana thi aapde aakhu alert console var pati jai  pachi aavse and then title change karse
+document.body.style.backgroundColor = "pink"
+//aa anu backgroung color pink kari dese ek var pati jai pachi
