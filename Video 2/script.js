@@ -32,3 +32,14 @@ let r=null;//this is null var
 
 console.log(x, y, z, p, q, r)
 console.log(typeof x,typeof y,typeof z, typeof p,typeof q, typeof r)
+ //object is a combination of key=value and if we call the o/p it shows the all key value of that var mare koi ek entity na mate bou badhi vastu lakhvi che to obj store kari sake aek obj na mate bou badhi vastu lakhi sakie
+ let o={
+"name" : "Vaidehi",
+"job code": 1017,
+"is_handsome" : true
+}
+console.log(o)
+o.salary = "100crores"
+console.log(o)
+o.salary = "500crores"
+console.log(o)
