@@ -15,10 +15,11 @@ let obj = {
     "role": "Programmer",
     "company": "CodewithHarry AI"
 }
-
+//this for in loop prints the element and the key of the object
 for (const k in obj) {
-    
-        console.log(k);
-
-    
+    console.log(k);
+}
+//for-of loop is for string ,array,etc
+for (const v of "Vaidehi") {
+console.log(v);
 }
