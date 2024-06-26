@@ -25,8 +25,15 @@ let a = 1;
 // }
 
 //while-loop
+// let i = 0;
+// while (i < 6) {
+//     console.log(i)
+//     i++;
+// }
+//do-while loop is for running anything for the one time
 let i = 0;
-while (i < 6) {
+do {
     console.log(i)
-    i++;
-}
+    i++; 
+    
+} while (i<6);
