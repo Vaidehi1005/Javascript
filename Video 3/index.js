@@ -36,3 +36,8 @@ else {
 //&& logical and
 //|| logical or
 //! logical not
+/*
+I am a
+multiline
+ comment
+*/
