@@ -31,7 +31,7 @@ else {
 //a<b less than
 //a>=b greater than or equal to
 //a<=b less than or  equal to
-//a!b ternary 
+//a?:b ternary 
 //logical operator
 //&& logical and
 //|| logical or
@@ -54,3 +54,18 @@ else if(age==1){
 else{
     console.log("You cannot drive");
 }
+//ternary operator :?
+//a=6,b=8 then c=a>b ? (a-b):(b-a)
+let a=6;
+let b=8;
+let c=a>b?(a-b):(b-a);
+console.log(c);
+/*
+translates to:
+if(a>b){
+let c=a-b;
+}
+else{
+let c=b-a;
+}
+*/
