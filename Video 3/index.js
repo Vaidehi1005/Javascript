@@ -4,8 +4,8 @@ let age = 5;
 //ek var banayo age je block scope che 
 let grace = 2;
 //ek var banayo grace e pn block scope che
-console.log(age + grace);
-//addition thase aama 2 var nu
+age+=grace;//increament assignment operator
+console.log(age );//addition thase aama 2 var nu
 console.log(age - grace);//sub 
 console.log(age * grace);//mul
 console.log(age / grace);//div
