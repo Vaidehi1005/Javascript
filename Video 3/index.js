@@ -23,3 +23,16 @@ if (age!= 18) {
 else {
     console.log("You cannot drive");
 }
+//a==b equal to
+//a!=b not equal to
+//a===b equal value and type
+//a!==b not equal value or not equal type
+//a>b greater than
+//a<b less than
+//a>=b greater than or equal to
+//a<=b less than or  equal to
+//a!b ternary 
+//logical operator
+//&& logical and
+//|| logical or
+//! logical not
