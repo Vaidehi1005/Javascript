@@ -1,6 +1,6 @@
 console.log("Hello I am conditional tutorial")
 //console log just print karse node js k console par
-let age=3;
+let age=18;
 //ek var banayo age je block scope che 
 let grace=2;
 //ek var banayo grace e pn block scope che
