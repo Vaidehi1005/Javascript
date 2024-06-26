@@ -1,6 +1,6 @@
 console.log("Hello I am conditional tutorial")
 //console log just print karse node js k console par
-let age =10;
+let age =1;
 //ek var banayo age je block scope che 
  let grace = 2;
 //ek var banayeo grace e pn block scope che
@@ -48,6 +48,9 @@ if(age==18){
 else if(age==0){
     console.log("Are you kidding?");
 }
+else if(age==1){
+    console.log("Are you again kidding?");
+    }
 else{
     console.log("You cannot drive");
 }
