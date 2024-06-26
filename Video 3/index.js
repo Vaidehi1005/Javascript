@@ -1,6 +1,6 @@
 console.log("Hello I am conditional tutorial")
 //console log just print karse node js k console par
-let age = 10;
+let age =10;
 //ek var banayo age je block scope che 
  let grace = 2;
 //ek var banayeo grace e pn block scope che
@@ -42,7 +42,7 @@ multiline
  comment
 */
 // if else if ladder
-if(age!=18){
+if(age==18){
     console.log("You can drive");
 }
 else if(age==0){
