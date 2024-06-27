@@ -13,4 +13,12 @@ console.log(a.length);
 
 let real_name = "Vaidu";//realname naam no var che e vaidu che
 let friend = "Freya";//friend naam no var che e freya che
-console.log("Her name is " + real_name + " and her friend name is " + friend);//to print the both var 
+console.log("Her name is " + real_name + " and her bestfriend name is " + friend);//to print the both var 
+//template literals is for writing in the simple way not to write like above hectic way 
+console.log(`Her name is ${real_name} and her bestfriend name is ${friend} `);//single interplotation
+
+let b="Shivam";
+console.log(b.toUpperCase())
+console.log(b.toLowerCase())
+console.log(b.length)
+console.log(b.slice(1,4))
