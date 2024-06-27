@@ -18,7 +18,7 @@ console.log("Her name is " + real_name + " and her bestfriend name is " + friend
 console.log(`Her name is ${real_name} and her bestfriend name is ${friend} `);//single interplotation
 
 let b="Shivam";
-console.log(b.toUpperCase())
-console.log(b.toLowerCase())
-console.log(b.length)
-console.log(b.slice(1,4))
+console.log(b.toUpperCase());
+console.log(b.toLowerCase());
+console.log(b.length);
+console.log(b.slice(1,4));
