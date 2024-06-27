@@ -10,3 +10,7 @@ console.log(a[5]);//it access 6st char
 console.log(a[6]);//it access 7st char 
 // console.log(a[7]); 
 console.log(a.length);
+
+let real_name = "Vaidu";//realname naam no var che e vaidu che
+let friend = "Freya";//friend naam no var che e freya che
+console.log("Her name is " + real_name + " and her friend name is " + friend);//to print the both var 
