@@ -16,6 +16,12 @@ function sum(a, b) {
 }
 // sum(11,222);
 
-result = sum(22, 10);
+result1 = sum(22, 10);
+result2 = sum(22, 10);
+result3 = sum(22, 10);
 
-console.log("The sum of the number is: ", result);
+console.log("The sum of the number is: ", result1);
+console.log("The sum of the number is: ", result1);
+console.log("The sum of the number is: ", result1);
+console.log("The sum of the number is: ", result1);
+console.log("The sum of the number is: ", result1);
