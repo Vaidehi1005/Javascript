@@ -9,7 +9,7 @@ console.log(a[4]);//it access 5st char
 console.log(a[5]);//it access 6st char 
 console.log(a[6]);//it access 7st char 
 // console.log(a[7]); 
-console.log(a.length);
+console.log(a.length);// for length
 
 let real_name = "Vaidu";//realname naam no var che e vaidu che
 let friend = "Freya";//friend naam no var che e freya che
@@ -18,7 +18,12 @@ console.log("Her name is " + real_name + " and her bestfriend name is " + friend
 console.log(`Her name is ${real_name} and her bestfriend name is ${friend} `);//single interplotation
 
 let b="Shivam";
-console.log(b.toUpperCase());
-console.log(b.toLowerCase());
-console.log(b.length);
-console.log(b.slice(1,4));
+console.log(b.toUpperCase());//uppercase mate
+console.log(b.toLowerCase());//lowercase mate
+console.log(b.length);//length mate
+console.log(b.slice(1,4));//slice means index 1 thi aapse word ane 4 pela sudhi 
+console.log(b.slice(1,5));//1 thi start thase 5 pela
+console.log(b.slice(1));// 1 thi last sudhi
+console.log(b.replace("Sh","10"))//hamesha first sh j replace thase bijo sh replace nai thai 
+console.log(b.concat(a,"Nayakpura","Rahul","Priya"))//string join karse badha ne
+console.log(b)//strings are immutable
