@@ -9,3 +9,8 @@ function nice(name) {
 nice("Vaidehi");
 
 nice("Parthvi");
+
+function sum(a,b) {
+    console.log(a+b);//this is the void fun which is not returning any value and just printing the value
+}
+sum(111,222);
