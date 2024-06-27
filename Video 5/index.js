@@ -6,9 +6,9 @@ function nice(name) {
     console.log("Hey " + name + " your tshirt is nice!");
     console.log("Hey " + name + " you are good at studies!");
 }
-// nice("Vaidehi");
+nice("Vaidehi");
 
-// nice("Parthvi");
+nice("Parthvi");
 
 function sum(a, b, c = 3) {
     console.log(a, b, c);
@@ -25,3 +25,12 @@ result3 = sum(122, 10, 2);//passing c is optional if we are passing then it's va
 console.log("The sum of the number is: ", result1);
 console.log("The sum of the number is: ", result2);
 console.log("The sum of the number is: ", result3);
+
+//arrow function
+//arrow fun ma aapde kai ritna var ni andar fun ne nakhi sakie 
+const fun1 =(x)=>{//fun1 ek var che ane e fun pn che so bane che and e value store kari sake 
+    console.log("I am an arrow function ",x);
+}
+fun1(10);
+fun1(69);
+fun1(89);
