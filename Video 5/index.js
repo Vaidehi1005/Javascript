@@ -11,6 +11,7 @@ function nice(name) {
 // nice("Parthvi");
 
 function sum(a, b,c=3) {
+    console.log(a,b,c);
     // console.log(a+b);//this is the void fun which is not returning any value and just printing the value
     return a + b +c;//this is for returning the integer value when passing the int value and storing into result and then we will print the result
 }
