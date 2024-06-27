@@ -10,18 +10,17 @@ function nice(name) {
 
 // nice("Parthvi");
 
-function sum(a, b) {
+function sum(a, b,c=3) {
     // console.log(a+b);//this is the void fun which is not returning any value and just printing the value
-    return a + b;//this is for returning the integer value when passing the int value and storing into result and then we will print the result
+    return a + b +c;//this is for returning the integer value when passing the int value and storing into result and then we will print the result
 }
 // sum(11,222);
 
 result1 = sum(22, 10);
-result2 = sum(22, 10);
-result3 = sum(22, 10);
+result2 = sum(2);
+result3 = sum(122, 10,2);//passing c is optional if we are passing then it's value would be this
+//the fun is used for reusability
 
 console.log("The sum of the number is: ", result1);
-console.log("The sum of the number is: ", result1);
-console.log("The sum of the number is: ", result1);
-console.log("The sum of the number is: ", result1);
-console.log("The sum of the number is: ", result1);
+console.log("The sum of the number is: ", result2);
+console.log("The sum of the number is: ", result3);
