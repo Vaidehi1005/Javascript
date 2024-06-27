@@ -1,5 +1,9 @@
 // Functions
-console.log("Hey Vaidehi I am nice!");
-console.log("Hey Vaidehi I am fine!");
-console.log("Hey Vaidehi your tshirt is nice!");
-console.log("Hey Vaidehi you are good at studies!");
+
+function nice(name) {
+    console.log("Hey " + name + "I am nice!");
+    console.log("Hey " + name + "I am fine!");
+    console.log("Hey " + name + "your tshirt is nice!");
+    console.log("Hey " + name + "you are good at studies!");
+}
+
