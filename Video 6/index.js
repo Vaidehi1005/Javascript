@@ -8,3 +8,5 @@ console.log(a[3]);//it access 4st char
 console.log(a[4]);//it access 5st char 
 console.log(a[5]);//it access 6st char 
 console.log(a[6]);//it access 7st char 
+// console.log(a[7]); 
+console.log(a.length);
