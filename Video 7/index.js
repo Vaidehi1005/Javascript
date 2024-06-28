@@ -20,4 +20,13 @@ console.log(arr.join(" and "));//aa array ma je no che ene join karva che and th
 let a1 =[1,2,3];
 let a2 =[4,5,6];
 let a3 =[7,8,9 ];
-console.log(a1.concat(a2,a3))
+console.log(a1.concat(a2,a3))//a1,a2,a3 same j rese as it is change nai thai
+/*
+arr.push(22) thi last element ma 22 push thase
+arr.pop() thi last element nikadse
+arr.shift thi first element nikadse
+arr.unshift thi first element ma add thase
+delete arr[6] means e 6 index vala ne delete karse but arr ma elements etla j rese je pela thi hata etli memory allocation rese 
+just 6th element ma delete thai che so e undefined rese ane e jagya empty rese
+concat join thase 2 arrays ne
+splice arrays ma insert and delete karva mate use thase   
