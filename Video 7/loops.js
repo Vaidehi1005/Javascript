@@ -1,13 +1,13 @@
 let a = [1, 3, 5, 6, 88];
-// for (let index = 0; index <a.length; index++) {
-//     const element = a[index];
-//     console.log(element);
+for (let index = 0; index <a.length; index++) {
+    const element = a[index];
+    console.log(element);
 
-// }
+}
 
-// a.forEach((value,index,arr)=>{
-//  console.log(value,index,arr);
-// })
+a.forEach((value,index,arr)=>{
+ console.log(value,index,arr);
+})
 let obj = {
     a: 1,
     b: 2,
