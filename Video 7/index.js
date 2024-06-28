@@ -29,4 +29,13 @@ arr.unshift thi first element ma add thase
 delete arr[6] means e 6 index vala ne delete karse but arr ma elements etla j rese je pela thi hata etli memory allocation rese 
 just 6th element ma delete thai che so e undefined rese ane e jagya empty rese
 concat join thase 2 arrays ne
-splice arrays ma insert and delete karva mate use thase   
+splice arrays ma insert and delete karva mate use thase  
+arr.splice(1,1)
+means 1st index thi 1 element replace thase so e nikadi jase and then 
+*/ 
+ 
+// let numbers = [1, 2, 3, 4, 5] 
+// numbers.splice(1, 2)    
+// numbers.splice(1, 3)  
+// numbers.splice(1, 3, 222, 333) 
+// (4) [1, 222, 333, 5]
