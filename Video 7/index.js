@@ -5,11 +5,12 @@ array ek var j che and js nodejs thi use karvu hoi to ena thi k web browser thi 
 */
 let arr=[1,2,4,5,7];
 //index= 0,1,2,3,4
-console.log(arr);
+arr[0]=5666;
+console.log(arr,typeof arr);
 console.log(arr.length)
 //arrays are mutable so we can change the array
 console.log(arr[0]);
 console.log(arr[2]);
-console.log(arr[7]);
+console.log(arr[4]);
 
 
