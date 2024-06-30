@@ -13,10 +13,18 @@ let arr = [1, 13, 5, 7, 11];
 // console.log(newArr);
 //filter loop
 
- const greaterThanSeven =(value)=>{
-    if(value>7){
-        return true
-    }
-    return false
- }
-console.log(newArr.filter(greaterThanSeven))
+// const greaterThanSeven = (value) => {
+//     if (value > 7) {
+//         return true
+//     }
+//     return false
+// }
+// console.log(newArr.filter(greaterThanSeven))
+
+//reduce method-reduces an array to single value
+let arr2 = [1, 2, 3, 4, 5]
+
+const red = (a, b) => {
+    return a * b
+}
+console.log(arr2.reduce(red))
