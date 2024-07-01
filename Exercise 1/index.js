@@ -9,3 +9,4 @@ This faulty does the following:
 / ---> **
 It performs the wrong operations 10% of the times
 */
+let random = Math.random()
