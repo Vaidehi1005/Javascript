@@ -48,3 +48,4 @@ else {
     third = "Hub"
 }
 console.log(`${first} ${second} ${third} `)
+//here we are creating the different random numbers so we get different o/p
