@@ -23,11 +23,12 @@ let obj = {
 }
 if (random > 0.1) {
     //Perform correct calculation
-
+    alert(`The result is ${eval(`${a} ${b} ${c}`)}`)
 
 }
 else {
     //Perform wrong operations
     b = obj[b]
+    alert(`The result is ${eval(`${a} ${b} ${c}`)}`)
 
 }
