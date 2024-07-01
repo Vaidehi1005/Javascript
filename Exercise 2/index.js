@@ -45,3 +45,4 @@ else if(random<0.66 && random>=0.33){
 else{
     third="Hub"
 }
+console.log(`${first} ${second} ${third} `)
