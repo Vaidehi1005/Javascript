@@ -23,7 +23,7 @@ let obj = {
 }
 if (random > 0.1) {
     //Perform correct calculation
-    alert(`The result is ${eval(`${a} ${b} ${c}`)}`)
+    alert(`The result is ${eval(`${a} ${b} ${c}`)}`)//eval fun je che e calculate karse num ne oper ne ae as a cal na jm ane value aapse alert ma
 
 }
 else {
